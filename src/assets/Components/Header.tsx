@@ -165,56 +165,126 @@ const Header: FC<HeaderProps> = () => {
                 className="-mr-1 size-5 text-gray-400"
               />
             </MenuButton>
-            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 rounded-md origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
+            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 max-h-82 overflow-y-auto origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black "
-                    >
-                      GATE VALVES THREADED - GV 0 - GV 10
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black ">
+                      <Link to="/gatevalves1">
+                        GATE VALVES THREADED - GV 0 - GV 10
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white hover:bg-black "
-                    >
-                      GATE VALVE SOLDER - GV 11 - GV 20
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white hover:bg-black ">
+                      <Link to="/gatevalves2">
+                        GATE VALVE SOLDER - GV 11 - GV 20
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
-                    >
-                      GATE & WASTE VALVES - GVD 2 - GVD 4
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves3">
+                        {" "}
+                        GATE & WASTE VALVES - GVD 2 - GVD 4
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
-                    >
-                      GATE & WATE VALVE - GVD 12 - GVD 14
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves4">
+                        GATE & WATE VALVE - GVD 12 - GVD 14
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
-                    >
-                      GATE COMPRESSION VALVES - GVC 2 - GVC 4
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves5">
+                        GATE COMPRESSION VALVES - GVC 2 - GVC 4
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves6">
+                        GATE COMPRESSION VALVES WITH PIPE CPVC - GVC 2 CPVC -
+                        GVC 3 CPVC
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves7">
+                        GATE VALVES HEAVY DUTY - GVH 2 - GVH 9
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves8">
+                        GATE VALVES WITH LONG BONNET THREADED - GVL 2 - GVL 7
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves9">
+                        GATE VALVES SOLDER WITH LONG BONNET - GVL 12 - GVL 17
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves10">
+                        GATE VALVES QUICK OPENING - GVQ 2 - GVQ 10
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves11">
+                        GATE VALVES WITH STUFFING BOX - GVB 1 - GVB 7
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves12">
+                        ATE VALVES SODER WITH STUFFING BOX - GVB 12 - GVB 17
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/gatevalves13">
+                        {" "}
+                        GATE VALVES WTH FLANGE - GVF 2 - GVF 10
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
               </div>
@@ -230,7 +300,7 @@ const Header: FC<HeaderProps> = () => {
                 className="-mr-1 size-5 text-gray-400"
               />
             </MenuButton>
-            <MenuItems className="absolute rounded-md left-0 mt-2 rounded-md w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
+            <MenuItems className="absolute rounded-md left-0 mt-2  w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
@@ -275,7 +345,7 @@ const Header: FC<HeaderProps> = () => {
                 className="-mr-1 size-5 text-gray-400"
               />
             </MenuButton>
-            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 rounded-md origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
+            <MenuItems className="absolute rounded-md left-0 mt-2 w-48  origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
@@ -321,7 +391,7 @@ const Header: FC<HeaderProps> = () => {
                 className="-mr-1 size-5 text-gray-400"
               />
             </MenuButton>
-            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left rounded-md bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
+            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
@@ -366,7 +436,7 @@ const Header: FC<HeaderProps> = () => {
                 className="-mr-1 size-5 text-gray-400"
               />
             </MenuButton>
-            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left rounded-md bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
+            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
@@ -411,7 +481,7 @@ const Header: FC<HeaderProps> = () => {
                 className="-mr-1 size-5 text-gray-400"
               />
             </MenuButton>
-            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left bg-white rounded-md text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
+            <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
