@@ -16,7 +16,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/globevalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />

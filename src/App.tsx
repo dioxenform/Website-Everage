@@ -5,6 +5,7 @@ import VisiMisi from "./assets/Pages/Profile/VisiMisi";
 import Sejarah from "./assets/Pages/Profile/Sejarah";
 import AllProduct from "./assets/Pages/AllProduct";
 import GateValves from "./assets/Pages/AllProduct/GateValves";
+import GlobeValves from "./assets/Pages/AllProduct/GlobeValves";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/visimisi" Component={VisiMisi} />
             <Route path="/allproduct" Component={AllProduct} />
             <Route path="/gatevalves" Component={GateValves} />
+            <Route path="/globevalves" Component={GlobeValves} />
           </Route>
         </Routes>
       </Router>

@@ -96,7 +96,8 @@ const GateValves = () => {
       <div className="bg-white text-black ">
         <Header />
         <HeaderForList />
-        <div className="flex-grow flex justify-center items-center mt-20 pb-20">
+        <h2 className="text-center pt-20 text-3xl">LIST GATE VALVES</h2>
+        <div className="flex-grow flex justify-center items-center mt-6 pb-20">
           <div className="carousel carousel-center max-w-[500px] -pb-30  ">
             {Products.map((Product, index) => (
               <div key={index} className="carousel-item ">
