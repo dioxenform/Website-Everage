@@ -304,32 +304,39 @@ const Header: FC<HeaderProps> = () => {
               <div className="py-1">
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black "
-                    >
-                      Pressure Seal Globe Valves
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black ">
+                      <Link to="/globevalves1">
+                        GLOBE VALVES WITH HARD SEAT - GB 0 - GB 7
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white hover:bg-black "
-                    >
-                      Bronze Globe Valves
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white hover:bg-black ">
+                      <Link to="/globevalves2">
+                        15 # GLOBE VALVES WITH SOFT SEAT (RUBBER, TEFLON) - GBR,
+                        GBT 0 - 7
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
-                    >
-                      Y-Pattern Globe Valves
-                    </a>
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/globevalves3">
+                        GLOBE VALVES WITH STUFFING BOX - GBB 2 - GBB 7
+                      </Link>
+                    </p>
+                  )}
+                </MenuItem>
+                <MenuItem>
+                  {({ active }: { active: boolean }) => (
+                    <p className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black ">
+                      <Link to="/globevalves4">
+                        GLOBE VALVES WITH FLANGE - GBF 2 - GBF 10
+                      </Link>
+                    </p>
                   )}
                 </MenuItem>
               </div>

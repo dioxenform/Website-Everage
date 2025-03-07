@@ -16,6 +16,10 @@ import GateValves10 from "./assets/Pages/GateValves/GateValves10";
 import GateValves11 from "./assets/Pages/GateValves/GateValves11";
 import GateValves12 from "./assets/Pages/GateValves/GateValves12";
 import GateValves13 from "./assets/Pages/GateValves/GateValves13";
+import GlobeValves1 from "./assets/Pages/GlobalValves/GlobeValves1";
+import GlobeValves2 from "./assets/Pages/GlobalValves/GlobeValves2";
+import GlobeValves3 from "./assets/Pages/GlobalValves/GlobeValves3";
+import GlobeValves4 from "./assets/Pages/GlobalValves/GlobeValves4";
 
 function App() {
   return (
@@ -40,6 +44,10 @@ function App() {
             <Route path="/gatevalves11" Component={GateValves11} />
             <Route path="/gatevalves12" Component={GateValves12} />
             <Route path="/gatevalves13" Component={GateValves13} />
+            <Route path="/globevalves1" Component={GlobeValves1} />
+            <Route path="/globevalves2" Component={GlobeValves2} />
+            <Route path="/globevalves3" Component={GlobeValves3} />
+            <Route path="/globevalves4" Component={GlobeValves4} />
           </Route>
         </Routes>
       </Router>
