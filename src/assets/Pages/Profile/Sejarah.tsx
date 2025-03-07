@@ -1,5 +1,6 @@
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
+import HeaderForList from "../../Components/HeaderForList";
 
 const Sejarah = () => {
   return (
