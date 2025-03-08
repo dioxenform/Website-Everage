@@ -25,7 +25,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/checkvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -34,7 +34,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/ballvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -43,7 +43,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/logvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -52,7 +52,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/anglemeter">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -61,7 +61,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/radiatorvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -72,7 +72,7 @@ const HeaderForList = () => {
       </div>
       <div className="flex gap-8 justify-center pt-4 text-lg font-bebas-neue tracking-wider">
         <div>
-          <Link to="/asd">
+          <Link to="/stopwastevalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -81,7 +81,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/stopwastevalveswithring">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -90,7 +90,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/boilerdrains">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
