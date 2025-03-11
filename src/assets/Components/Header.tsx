@@ -23,7 +23,7 @@ const Header: FC<HeaderProps> = () => {
         </div>
       </div>
       <div className="grid justify-center text-center font-open-sans items-center bg-black tracking-wide text-white">
-        <div className="flex gap-10 pt-4 pb-2 text-sm font-semibold">
+        <div className="flex gap-10 pt-4 pb-4 text-sm font-semibold">
           <button className="flex -mt-[2px] items-center p-1 rounded  transition-colors duration-200">
             <HomeIcon className="text-xl mr-1" />
             <Link to="/">

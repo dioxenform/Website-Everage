@@ -304,7 +304,7 @@ const Fittings = () => {
         <div className="flex-grow flex justify-center items-center mt-6 pb-20">
           <div className="carousel carousel-center max-w-[500px] -pb-30  ">
             {Products.map((Product, index) => (
-              <div key={index} className="carousel-item ">
+              <div key={index} className="carousel-item">
                 <MainCard
                   image={Product.image}
                   title={Product.title}

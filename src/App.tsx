@@ -28,6 +28,9 @@ import PopUpDrains from "./assets/Pages/AllProduct/PopUpDRains";
 import PitlessAdapter from "./assets/Pages/AllProduct/PitlessAdapter";
 import Faucets from "./assets/Pages/AllProduct/Faucets";
 import Fittings from "./assets/Pages/AllProduct/Fittings";
+import Pirul from "./assets/Pages/AllProduct/Pirul";
+import FireHose from "./assets/Pages/AllProduct/FireHose";
+import Manifold from "./assets/Pages/AllProduct/Manifold";
 
 function App() {
   return (
@@ -67,6 +70,9 @@ function App() {
             <Route path="/pitlessadapter" Component={PitlessAdapter} />
             <Route path="/faucets" Component={Faucets} />
             <Route path="/fittings" Component={Fittings} />
+            <Route path="/pirul" Component={Pirul} />
+            <Route path="/firehose" Component={FireHose} />
+            <Route path="/manifold" Component={Manifold} />
           </Route>
         </Routes>
       </Router>

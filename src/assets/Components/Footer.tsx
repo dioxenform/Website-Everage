@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-gray-800 h-16">
-        <h1 className="flex justify-center py-4 text-sm">
+        <h1 className="flex justify-center text-white py-4 text-sm">
           @2025 Powered by Dio Aditya Saputra
         </h1>
       </div>
