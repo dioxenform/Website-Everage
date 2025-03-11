@@ -25,6 +25,9 @@ import VacuumBreaker from "./assets/Pages/AllProduct/VacuumBreaker";
 import DMV from "./assets/Pages/AllProduct/DMV";
 import Strainer from "./assets/Pages/AllProduct/Strainer";
 import PopUpDrains from "./assets/Pages/AllProduct/PopUpDRains";
+import PitlessAdapter from "./assets/Pages/AllProduct/PitlessAdapter";
+import Faucets from "./assets/Pages/AllProduct/Faucets";
+import Fittings from "./assets/Pages/AllProduct/Fittings";
 
 function App() {
   return (
@@ -61,6 +64,9 @@ function App() {
             <Route path="/dmv" Component={DMV} />
             <Route path="/strainer" Component={Strainer} />
             <Route path="/popupdrains" Component={PopUpDrains} />
+            <Route path="/pitlessadapter" Component={PitlessAdapter} />
+            <Route path="/faucets" Component={Faucets} />
+            <Route path="/fittings" Component={Fittings} />
           </Route>
         </Routes>
       </Router>

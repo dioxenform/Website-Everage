@@ -9,7 +9,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/gatevalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Gate Valves</p>
             </div>
@@ -18,7 +18,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/globevalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Globe Valves</p>
             </div>
@@ -27,7 +27,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/checkvalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Check Valves</p>
             </div>
@@ -36,7 +36,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/ballvalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Ball Valves</p>
             </div>
@@ -45,7 +45,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/logvalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Log Lighter Valves</p>
             </div>
@@ -54,7 +54,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/anglemeter">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Angle Meter Valves</p>
             </div>
@@ -63,7 +63,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/radiatorvalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Radiator Valves</p>
             </div>
@@ -74,7 +74,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/stopwastevalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>Stop & Waste Valves</p>
             </div>
@@ -83,7 +83,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/stopwastevalveswithring">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>STOP & WASTE VALVES WITH O RING</p>
             </div>
@@ -92,7 +92,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/boilerdrains">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>BOILER DRAINS</p>
             </div>
@@ -101,7 +101,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/waterheater">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>WATER HEATER DRAIN</p>
             </div>
@@ -110,7 +110,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/sillcockvalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>SILLCOCK VALVES</p>
             </div>
@@ -119,7 +119,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/housebibb">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>HOSE BIBB VALVES</p>
             </div>
@@ -128,7 +128,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/quarterturn">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p> QUARTER TURN VALVES</p>
             </div>
@@ -139,7 +139,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/gardenvalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>GARDEN VALVES</p>
             </div>
@@ -148,7 +148,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/anglevalves">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>ANGLE VALVES</p>
             </div>
@@ -157,7 +157,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/frostfree">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>FROST FREE SILLCOCKS</p>
             </div>
@@ -166,7 +166,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/vacuumbreaker">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p> VACUUM BREAKERS</p>
             </div>
@@ -175,7 +175,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/dmv">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>“DWV” FITTINGS</p>
             </div>
@@ -184,7 +184,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/strainer">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>STRAINER</p>
             </div>
@@ -193,7 +193,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/popupdrains">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>POP UP DRAINS</p>
             </div>
@@ -202,27 +202,27 @@ const HeaderForList = () => {
       </div>
       <div className="flex gap-8 justify-center pt-4 text-lg font-bebas-neue tracking-wider">
         <div>
-          <Link to="/asd">
+          <Link to="/pitlessadapter">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>PITLESS ADAPTER</p>
             </div>
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/faucets">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>FAUCETS</p>
             </div>
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/fittings">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>FITTINGS</p>
             </div>
@@ -231,7 +231,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>PIRUL</p>
             </div>
@@ -240,7 +240,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p> FIRE HOSE</p>
             </div>
@@ -249,7 +249,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>MANIFOLD</p>
             </div>
@@ -258,7 +258,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>WATER SERVICE FITTINGS</p>
             </div>
@@ -269,7 +269,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>TEES COUPLINGS</p>
             </div>
@@ -278,7 +278,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>ELL COUPLINGS</p>
             </div>
@@ -287,7 +287,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>PACK JOINT GRIP COUPLINGS</p>
             </div>
@@ -296,7 +296,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>STIFFENER FLANGE</p>
             </div>
@@ -305,7 +305,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>OIL TANK VALVES</p>
             </div>
@@ -314,7 +314,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>MISCELLANEOUS</p>
             </div>
@@ -323,7 +323,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>WATER HAMMER</p>
             </div>
@@ -334,7 +334,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>PRESS FITTINGS</p>
             </div>
@@ -343,7 +343,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>RELIEF VALVE</p>
             </div>
@@ -352,7 +352,7 @@ const HeaderForList = () => {
         <div>
           <Link to="/asd">
             {" "}
-            <div className="flex  hover:text-blue-500 hover:text-xl">
+            <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
               <p>ACCESSORIES</p>
             </div>
