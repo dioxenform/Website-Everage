@@ -13,6 +13,11 @@ import AngleMeter from "./assets/Pages/AllProduct/AngleMeter";
 import RadiatorValves from "./assets/Pages/AllProduct/RadiatorValves";
 import StopWasteValves from "./assets/Pages/AllProduct/StopWasteValves";
 import StopWasteValvesWithRing from "./assets/Pages/AllProduct/StopWasteValvesWithRing";
+import BoilerDrains from "./assets/Pages/AllProduct/BoilerDrains";
+import WaterHeater from "./assets/Pages/AllProduct/WaterHeater";
+import SillcockValves from "./assets/Pages/AllProduct/SillcockValves";
+import HouseBibb from "./assets/Pages/AllProduct/HouseBibb";
+import QuarterTurn from "./assets/Pages/AllProduct/QuarterTurn";
 
 function App() {
   return (
@@ -37,6 +42,11 @@ function App() {
               path="/stopwastevalveswithring"
               Component={StopWasteValvesWithRing}
             />
+            <Route path="/boilerdrains" Component={BoilerDrains} />
+            <Route path="/waterheater" Component={WaterHeater} />
+            <Route path="/sillcockvalves" Component={SillcockValves} />
+            <Route path="/housebibb" Component={HouseBibb} />
+            <Route path="/quarterturn" Component={QuarterTurn} />
           </Route>
         </Routes>
       </Router>

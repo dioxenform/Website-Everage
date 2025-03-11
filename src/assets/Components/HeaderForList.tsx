@@ -99,7 +99,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/waterheater">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -108,7 +108,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/sillcockvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -117,7 +117,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/housebibb">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -126,7 +126,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/quarterturn">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
