@@ -18,6 +18,13 @@ import WaterHeater from "./assets/Pages/AllProduct/WaterHeater";
 import SillcockValves from "./assets/Pages/AllProduct/SillcockValves";
 import HouseBibb from "./assets/Pages/AllProduct/HouseBibb";
 import QuarterTurn from "./assets/Pages/AllProduct/QuarterTurn";
+import GardenValves from "./assets/Pages/AllProduct/GardenValves";
+import AngleValves from "./assets/Pages/AllProduct/AngleValves";
+import FrostFree from "./assets/Pages/AllProduct/FrostFree";
+import VacuumBreaker from "./assets/Pages/AllProduct/VacuumBreaker";
+import DMV from "./assets/Pages/AllProduct/DMV";
+import Strainer from "./assets/Pages/AllProduct/Strainer";
+import PopUpDrains from "./assets/Pages/AllProduct/PopUpDRains";
 
 function App() {
   return (
@@ -47,6 +54,13 @@ function App() {
             <Route path="/sillcockvalves" Component={SillcockValves} />
             <Route path="/housebibb" Component={HouseBibb} />
             <Route path="/quarterturn" Component={QuarterTurn} />
+            <Route path="/gardenvalves" Component={GardenValves} />
+            <Route path="/anglevalves" Component={AngleValves} />
+            <Route path="/frostfree" Component={FrostFree} />
+            <Route path="/vacuumbreaker" Component={VacuumBreaker} />
+            <Route path="/dmv" Component={DMV} />
+            <Route path="/strainer" Component={Strainer} />
+            <Route path="/popupdrains" Component={PopUpDrains} />
           </Route>
         </Routes>
       </Router>

@@ -137,7 +137,7 @@ const HeaderForList = () => {
       </div>
       <div className="flex gap-8 justify-center pt-4 text-lg font-bebas-neue tracking-wider">
         <div>
-          <Link to="/asd">
+          <Link to="/gardenvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -146,7 +146,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/anglevalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -155,7 +155,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/frostfree">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -164,7 +164,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/vacuumbreaker">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -173,7 +173,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/dmv">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -182,7 +182,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/strainer">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
@@ -191,7 +191,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/popupdrains">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl">
               <KeyboardArrowRightIcon />
