@@ -3,6 +3,8 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 type MainCardProps = {
   image: string;
@@ -35,7 +37,12 @@ const MainCard = (props: MainCardProps) => {
               {description}
             </Typography>
             <Typography variant="body2" sx={{ color: "white" }}>
-              <p className="pt-4 text-lg">Slide Untuk Melihat Lebih</p>
+              <p className="pt-4 text-base font-medium">
+                Slide to see other products. / Use the arrow button.{" "}
+                <ArrowBackIcon /> & <ArrowForwardIcon />
+                <br /> ------ <br /> Zoom in on the image to see the product
+                more clearly.
+              </p>
             </Typography>
           </CardContent>
         </CardActionArea>

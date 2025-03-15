@@ -59,7 +59,7 @@ const Dashboard: React.FC = () => {
       <Header />
       <div className="text-black text-3xl p-10">
         <h1 className="mb-4 text-center text-3xl font-roboto content-none before:flex-1 before:border-b-black after:flex-1 after:border-b-black ">
-          FOTO <strong>TERKAIT</strong>
+          <strong>RELATED</strong> PHOTOS
         </h1>
         <div className="flex flex-nowarp rounded-box carousel-center gap-4 carousel">
           <img className="w-[180px] h-[180px]" src={PabrikAnggotaOne} alt="" />
@@ -79,10 +79,10 @@ const Dashboard: React.FC = () => {
           />
         </div>
         <h2 className="text-black text-center text-lg font-medium">
-          Slide Untuk Melihat Product Lebih
+          Slide to see other products.
         </h2>
         <h2 className="pt-10">
-          CONTOH PRODUCT <strong>TERBARU</strong>
+          EXAMPLES OF LATEST <strong>PRODUCTS </strong>
         </h2>
       </div>
       <div className="flex-grow flex justify-center items-center mt-20">
@@ -100,23 +100,23 @@ const Dashboard: React.FC = () => {
       </div>
       <div className="pl-24 pt-24 flex justify-between pb-20">
         <div>
-          <h2 className="text-black text-3xl font-roboto pb-4">PENGUMUMAN</h2>
+          <h2 className="text-black text-3xl font-roboto pb-4">ANNOUNCEMENT</h2>
           <p className="text-gray-500 text-sm">
-            <CampaignIcon /> LARANGAN DILARANG MEROKOK
+            <CampaignIcon /> SMOKING IS STRICTLY PROHIBITED
           </p>
           <p className="text-gray-500 text-sm">
-            <CampaignIcon /> CHECKLOG JANGAN DI BAWA MASUK
+            <CampaignIcon /> CHECKLOGS MUST NOT BE BROUGHT IN
           </p>
           <p className="text-gray-500 text-sm">
-            <CampaignIcon /> TAMU HARAP IZIN KE SECURITY / SATPAM
+            <CampaignIcon /> VISITORS MUST ASK PERMISSION FROM SECURITY / GUARD
           </p>
         </div>
         <div className="pr-80">
           <h2 className="text-black text-3xl">
-            AGENDA <strong>KEGIATAN</strong>
+            ACTIVITY <strong>AGENDA</strong>
           </h2>
           <p className="text-gray-500 pt-4 text-sm">
-            UNTUK SEMENTARA TIDAK ADA KEGIATAN
+            FOR NOW, THERE ARE NO ACTIVITIES PLANNED
           </p>
         </div>
       </div>

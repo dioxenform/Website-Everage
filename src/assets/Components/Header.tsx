@@ -9,7 +9,7 @@ interface HeaderProps {}
 
 const Header: FC<HeaderProps> = () => {
   return (
-    <div>
+    <div className="">
       <div className="bg-blue-950 h-34 text-white grid justify-center items-center text-center font-montserrat">
         <div className="">
           <img
@@ -18,7 +18,7 @@ const Header: FC<HeaderProps> = () => {
             className="sm:w-8 md:w-24 lg:w-18 pt-4 mx-26"
           />
           <h1 className="pb-4 shadow-sm text-xl font-bold">
-            PT EVERAGE VALVES METALS
+            PT EVER AGE VALVES METALS
           </h1>
         </div>
       </div>
@@ -44,21 +44,23 @@ const Header: FC<HeaderProps> = () => {
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
                     <p className="block px-4 py-2 text-sm hover:bg-black -mt-2 hover:text-white ">
-                      <Link to="/strukturorganisasi">Struktur Organisasi</Link>
+                      <Link to="/strukturorganisasi">
+                        Organizational structure
+                      </Link>
                     </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
                     <p className="block px-4 py-2 text-sm hover:text-white hover:bg-black ">
-                      <Link to="/sejarah">Sejarah</Link>
+                      <Link to="/sejarah">History</Link>
                     </p>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
                     <p className="block px-4 py-2 text-sm hover:text-white hover:bg-black -mb-1 hover:rounded-md ">
-                      <Link to="/visimisi"> Visi & Misi</Link>
+                      <Link to="/visimisi"> Vission & Mission</Link>
                     </p>
                   )}
                 </MenuItem>

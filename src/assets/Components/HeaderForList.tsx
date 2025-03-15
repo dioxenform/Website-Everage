@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const HeaderForList = () => {
   return (
     <div className="min-h-55 ">
-      <h2 className="pl-30 pt-10 text-4xl pb-4">List Semua Product</h2>
+      <h2 className="pl-30 pt-10 text-4xl pb-4">List of All Products</h2>
       <div className="flex gap-8 justify-center pt-4 text-lg font-bebas-neue tracking-wider  ">
         <div>
           <Link to="/gatevalves">
