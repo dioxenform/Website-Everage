@@ -1,85 +1,146 @@
-import Dashboard from "./assets/Pages/Dashboard";
-import { BrowserRouter as Router, Routes, Route } from "react-router";
-import StrukturOrganisasi from "./assets/Pages/Profile/StrukturOrganisasi";
-import VisiMisi from "./assets/Pages/Profile/VisiMisi";
-import Sejarah from "./assets/Pages/Profile/Sejarah";
-import AllProduct from "./assets/Pages/AllProduct";
-import GateValves from "./assets/Pages/AllProduct/GateValves";
-import GlobeValves from "./assets/Pages/AllProduct/GlobeValves";
-import CheckValves from "./assets/Pages/AllProduct/CheckValves";
-import BallValves from "./assets/Pages/AllProduct/BallValves";
-import LogValves from "./assets/Pages/AllProduct/LogValves";
-import AngleMeter from "./assets/Pages/AllProduct/AngleMeter";
-import RadiatorValves from "./assets/Pages/AllProduct/RadiatorValves";
-import StopWasteValves from "./assets/Pages/AllProduct/StopWasteValves";
-import StopWasteValvesWithRing from "./assets/Pages/AllProduct/StopWasteValvesWithRing";
-import BoilerDrains from "./assets/Pages/AllProduct/BoilerDrains";
-import WaterHeater from "./assets/Pages/AllProduct/WaterHeater";
-import SillcockValves from "./assets/Pages/AllProduct/SillcockValves";
-import HouseBibb from "./assets/Pages/AllProduct/HouseBibb";
-import QuarterTurn from "./assets/Pages/AllProduct/QuarterTurn";
-import GardenValves from "./assets/Pages/AllProduct/GardenValves";
-import AngleValves from "./assets/Pages/AllProduct/AngleValves";
-import FrostFree from "./assets/Pages/AllProduct/FrostFree";
-import VacuumBreaker from "./assets/Pages/AllProduct/VacuumBreaker";
-import DMV from "./assets/Pages/AllProduct/DMV";
-import Strainer from "./assets/Pages/AllProduct/Strainer";
-import PopUpDrains from "./assets/Pages/AllProduct/PopUpDRains";
-import PitlessAdapter from "./assets/Pages/AllProduct/PitlessAdapter";
-import Faucets from "./assets/Pages/AllProduct/Faucets";
-import Fittings from "./assets/Pages/AllProduct/Fittings";
-import Pirul from "./assets/Pages/AllProduct/Pirul";
-import FireHose from "./assets/Pages/AllProduct/FireHose";
-import Manifold from "./assets/Pages/AllProduct/Manifold";
-import WaterServiceFittings from "./assets/Pages/AllProduct/WaterServiceFittings";
+import React, { Suspense, lazy } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import LoadingPage from "./assets/Components/LoadingPage";
+
+// Lazy load semua komponen halaman
+const Dashboard = lazy(() => import("./assets/Pages/Dashboard"));
+const StrukturOrganisasi = lazy(
+  () => import("./assets/Pages/Profile/StrukturOrganisasi")
+);
+const VisiMisi = lazy(() => import("./assets/Pages/Profile/VisiMisi"));
+const Sejarah = lazy(() => import("./assets/Pages/Profile/Sejarah"));
+const AllProduct = lazy(() => import("./assets/Pages/AllProduct"));
+const GateValves = lazy(() => import("./assets/Pages/AllProduct/GateValves"));
+const GlobeValves = lazy(() => import("./assets/Pages/AllProduct/GlobeValves"));
+const CheckValves = lazy(() => import("./assets/Pages/AllProduct/CheckValves"));
+const BallValves = lazy(() => import("./assets/Pages/AllProduct/BallValves"));
+const LogValves = lazy(() => import("./assets/Pages/AllProduct/LogValves"));
+const AngleMeter = lazy(() => import("./assets/Pages/AllProduct/AngleMeter"));
+const RadiatorValves = lazy(
+  () => import("./assets/Pages/AllProduct/RadiatorValves")
+);
+const StopWasteValves = lazy(
+  () => import("./assets/Pages/AllProduct/StopWasteValves")
+);
+const StopWasteValvesWithRing = lazy(
+  () => import("./assets/Pages/AllProduct/StopWasteValvesWithRing")
+);
+const BoilerDrains = lazy(
+  () => import("./assets/Pages/AllProduct/BoilerDrains")
+);
+const WaterHeater = lazy(() => import("./assets/Pages/AllProduct/WaterHeater"));
+const SillcockValves = lazy(
+  () => import("./assets/Pages/AllProduct/SillcockValves")
+);
+const HouseBibb = lazy(() => import("./assets/Pages/AllProduct/HouseBibb"));
+const QuarterTurn = lazy(() => import("./assets/Pages/AllProduct/QuarterTurn"));
+const GardenValves = lazy(
+  () => import("./assets/Pages/AllProduct/GardenValves")
+);
+const AngleValves = lazy(() => import("./assets/Pages/AllProduct/AngleValves"));
+const FrostFree = lazy(() => import("./assets/Pages/AllProduct/FrostFree"));
+const VacuumBreaker = lazy(
+  () => import("./assets/Pages/AllProduct/VacuumBreaker")
+);
+const DMV = lazy(() => import("./assets/Pages/AllProduct/DMV"));
+const Strainer = lazy(() => import("./assets/Pages/AllProduct/Strainer"));
+const PopUpDrains = lazy(() => import("./assets/Pages/AllProduct/PopUpDRains"));
+const PitlessAdapter = lazy(
+  () => import("./assets/Pages/AllProduct/PitlessAdapter")
+);
+const Faucets = lazy(() => import("./assets/Pages/AllProduct/Faucets"));
+const Fittings = lazy(() => import("./assets/Pages/AllProduct/Fittings"));
+const Pirul = lazy(() => import("./assets/Pages/AllProduct/Pirul"));
+const FireHose = lazy(() => import("./assets/Pages/AllProduct/FireHose"));
+const Manifold = lazy(() => import("./assets/Pages/AllProduct/Manifold"));
+const WaterServiceFittings = lazy(
+  () => import("./assets/Pages/AllProduct/WaterServiceFittings")
+);
+const TeesCoupling = lazy(
+  () => import("./assets/Pages/AllProduct/TeesCoupling")
+);
+const EllCouplings = lazy(
+  () => import("./assets/Pages/AllProduct/EllCouplings")
+);
+const PackJoinGrip = lazy(
+  () => import("./assets/Pages/AllProduct/PackJoinGrip")
+);
+const StiffenerFlange = lazy(
+  () => import("./assets/Pages/AllProduct/StiffenerFlange")
+);
+const OilTankValves = lazy(
+  () => import("./assets/Pages/AllProduct/OilTankValves")
+);
+const Miscellaneous = lazy(
+  () => import("./assets/Pages/AllProduct/Miscellaneous")
+);
+const WaterHammer = lazy(() => import("./assets/Pages/AllProduct/WaterHammer"));
+const PressFittings = lazy(
+  () => import("./assets/Pages/AllProduct/PressFittings")
+);
+const ReliefValve = lazy(() => import("./assets/Pages/AllProduct/ReliefValve"));
+const Accessories = lazy(() => import("./assets/Pages/AllProduct/Accessories"));
 
 function App() {
   return (
     <div>
       <Router>
-        <Routes>
-          <Route>
-            <Route path="/" Component={Dashboard} />
-            <Route path="/strukturorganisasi" Component={StrukturOrganisasi} />
-            <Route path="/sejarah" Component={Sejarah} />
-            <Route path="/visimisi" Component={VisiMisi} />
-            <Route path="/allproduct" Component={AllProduct} />
-            <Route path="/gatevalves" Component={GateValves} />
-            <Route path="/globevalves" Component={GlobeValves} />
-            <Route path="/checkvalves" Component={CheckValves} />
-            <Route path="/ballvalves" Component={BallValves} />
-            <Route path="/logvalves" Component={LogValves} />
-            <Route path="/anglemeter" Component={AngleMeter} />
-            <Route path="/radiatorvalves" Component={RadiatorValves} />
-            <Route path="/stopwastevalves" Component={StopWasteValves} />
+        <Suspense fallback={<LoadingPage />}>
+          <Routes>
+            <Route path="/" element={<Dashboard />} />
+            <Route
+              path="/strukturorganisasi"
+              element={<StrukturOrganisasi />}
+            />
+            <Route path="/sejarah" element={<Sejarah />} />
+            <Route path="/visimisi" element={<VisiMisi />} />
+            <Route path="/allproduct" element={<AllProduct />} />
+            <Route path="/gatevalves" element={<GateValves />} />
+            <Route path="/globevalves" element={<GlobeValves />} />
+            <Route path="/checkvalves" element={<CheckValves />} />
+            <Route path="/ballvalves" element={<BallValves />} />
+            <Route path="/logvalves" element={<LogValves />} />
+            <Route path="/anglemeter" element={<AngleMeter />} />
+            <Route path="/radiatorvalves" element={<RadiatorValves />} />
+            <Route path="/stopwastevalves" element={<StopWasteValves />} />
             <Route
               path="/stopwastevalveswithring"
-              Component={StopWasteValvesWithRing}
+              element={<StopWasteValvesWithRing />}
             />
-            <Route path="/boilerdrains" Component={BoilerDrains} />
-            <Route path="/waterheater" Component={WaterHeater} />
-            <Route path="/sillcockvalves" Component={SillcockValves} />
-            <Route path="/housebibb" Component={HouseBibb} />
-            <Route path="/quarterturn" Component={QuarterTurn} />
-            <Route path="/gardenvalves" Component={GardenValves} />
-            <Route path="/anglevalves" Component={AngleValves} />
-            <Route path="/frostfree" Component={FrostFree} />
-            <Route path="/vacuumbreaker" Component={VacuumBreaker} />
-            <Route path="/dmv" Component={DMV} />
-            <Route path="/strainer" Component={Strainer} />
-            <Route path="/popupdrains" Component={PopUpDrains} />
-            <Route path="/pitlessadapter" Component={PitlessAdapter} />
-            <Route path="/faucets" Component={Faucets} />
-            <Route path="/fittings" Component={Fittings} />
-            <Route path="/pirul" Component={Pirul} />
-            <Route path="/firehose" Component={FireHose} />
-            <Route path="/manifold" Component={Manifold} />
+            <Route path="/boilerdrains" element={<BoilerDrains />} />
+            <Route path="/waterheater" element={<WaterHeater />} />
+            <Route path="/sillcockvalves" element={<SillcockValves />} />
+            <Route path="/housebibb" element={<HouseBibb />} />
+            <Route path="/quarterturn" element={<QuarterTurn />} />
+            <Route path="/gardenvalves" element={<GardenValves />} />
+            <Route path="/anglevalves" element={<AngleValves />} />
+            <Route path="/frostfree" element={<FrostFree />} />
+            <Route path="/vacuumbreaker" element={<VacuumBreaker />} />
+            <Route path="/dmv" element={<DMV />} />
+            <Route path="/strainer" element={<Strainer />} />
+            <Route path="/popupdrains" element={<PopUpDrains />} />
+            <Route path="/pitlessadapter" element={<PitlessAdapter />} />
+            <Route path="/faucets" element={<Faucets />} />
+            <Route path="/fittings" element={<Fittings />} />
+            <Route path="/pirul" element={<Pirul />} />
+            <Route path="/firehose" element={<FireHose />} />
+            <Route path="/manifold" element={<Manifold />} />
             <Route
               path="/waterservicefittings"
-              Component={WaterServiceFittings}
+              element={<WaterServiceFittings />}
             />
-          </Route>
-        </Routes>
+            <Route path="/teescoupling" element={<TeesCoupling />} />
+            <Route path="/ellcouplings" element={<EllCouplings />} />
+            <Route path="/packjointgripcouplings" element={<PackJoinGrip />} />
+            <Route path="/stiffenerflange" element={<StiffenerFlange />} />
+            <Route path="/oiltankvalves" element={<OilTankValves />} />
+            <Route path="/miscellaneous" element={<Miscellaneous />} />
+            <Route path="/waterhammer" element={<WaterHammer />} />
+            <Route path="/pressfittings" element={<PressFittings />} />
+            <Route path="/reliefvalve" element={<ReliefValve />} />
+            <Route path="/accessories" element={<Accessories />} />
+          </Routes>
+        </Suspense>
       </Router>
     </div>
   );

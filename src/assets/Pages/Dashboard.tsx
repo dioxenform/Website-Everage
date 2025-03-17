@@ -14,6 +14,8 @@ import PabrikAnggotaFive from "../Images/Pabrikanggota5.jpg";
 import PabrikAnggotaSix from "../Images/Pabrikanggota6.jpg";
 import PabrikAnggotaSeven from "../Images/Pabrikanggota7.jpg";
 import CampaignIcon from "@mui/icons-material/Campaign";
+import ImageZoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 type Product = {
   image: string;
@@ -61,22 +63,57 @@ const Dashboard: React.FC = () => {
         <h1 className="mb-4 text-center text-3xl font-roboto content-none before:flex-1 before:border-b-black after:flex-1 after:border-b-black ">
           <strong>RELATED</strong> PHOTOS
         </h1>
+
         <div className="flex flex-nowarp rounded-box carousel-center gap-4 carousel">
-          <img className="w-[180px] h-[180px]" src={PabrikAnggotaOne} alt="" />
-          <img className="w-[180px] h-[180px]" src={PabrikAnggotaTwo} alt="" />
-          <img
-            className="w-[180px] h-[180px]"
-            src={PabrikAnggotaThree}
-            alt=""
-          />
-          <img className="w-[180px] h-[180px]" src={PabrikAnggotaFour} alt="" />
-          <img className="w-[180px] h-[180px]" src={PabrikAnggotaFive} alt="" />
-          <img className="w-[180px] h-[180px]" src={PabrikAnggotaSix} alt="" />
-          <img
-            className="w-[180px] h-[180px]"
-            src={PabrikAnggotaSeven}
-            alt=""
-          />
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaOne}
+              alt=""
+            />
+          </ImageZoom>
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaTwo}
+              alt=""
+            />
+          </ImageZoom>
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaThree}
+              alt=""
+            />
+          </ImageZoom>
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaFour}
+              alt=""
+            />
+          </ImageZoom>
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaFive}
+              alt=""
+            />
+          </ImageZoom>
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaSix}
+              alt=""
+            />
+          </ImageZoom>
+          <ImageZoom>
+            <img
+              className="w-[180px] h-[180px]"
+              src={PabrikAnggotaSeven}
+              alt=""
+            />
+          </ImageZoom>
         </div>
         <h2 className="text-black text-center text-lg font-medium">
           Slide to see other products.

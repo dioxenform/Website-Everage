@@ -95,7 +95,9 @@ const WaterServiceFittings = () => {
       <div className="bg-white text-black ">
         <Header />
         <HeaderForList />
-        <h2 className="text-center pt-20 text-3xl">LIST GLOBE VALVES</h2>
+        <h2 className="text-center pt-20 text-3xl">
+          LIST WATER SERVICE FITTINGS
+        </h2>
         <div className="flex-grow flex justify-center items-center mt-6 pb-20">
           <div className="carousel carousel-center max-w-[500px] -pb-30  ">
             {Products.map((Product, index) => (

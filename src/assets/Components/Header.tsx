@@ -138,7 +138,7 @@ const Header: FC<HeaderProps> = () => {
           {/* HUBUNGI KAMI Dropdown */}
           <Menu as="div" className="relative inline-block text-left">
             <MenuButton className="flex items-center hover:text-black hover:bg-white p-1 rounded transition-colors duration-200">
-              HUBUNGI KAMI
+              CONTACT US
               <ChevronDownIcon
                 aria-hidden="true"
                 className="-mr-1 size-5 text-gray-400"

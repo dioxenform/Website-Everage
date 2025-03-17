@@ -267,7 +267,7 @@ const HeaderForList = () => {
       </div>
       <div className="flex gap-8 justify-center pt-4 text-lg font-bebas-neue tracking-wider">
         <div>
-          <Link to="/asd">
+          <Link to="/teescoupling">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -276,7 +276,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/ellcouplings">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -285,7 +285,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/packjointgripcouplings">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -294,7 +294,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/stiffenerflange">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -303,7 +303,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/oiltankvalves">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -312,7 +312,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/miscellaneous">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -321,7 +321,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/waterhammer">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -332,7 +332,7 @@ const HeaderForList = () => {
       </div>
       <div className="flex gap-8 justify-center pt-4 text-lg font-bebas-neue tracking-wider">
         <div>
-          <Link to="/asd">
+          <Link to="/pressfittings">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -341,7 +341,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/reliefvalve">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
@@ -350,7 +350,7 @@ const HeaderForList = () => {
           </Link>
         </div>
         <div>
-          <Link to="/asd">
+          <Link to="/accessories">
             {" "}
             <div className="flex  hover:text-blue-500 hover:text-xl  transition-all duration-150 ease-in-out hover:translate-x-1">
               <KeyboardArrowRightIcon />
