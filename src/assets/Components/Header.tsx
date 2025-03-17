@@ -104,30 +104,30 @@ const Header: FC<HeaderProps> = () => {
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
                     <a
-                      href="#"
+                      href="/gallery"
                       className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black "
                     >
-                      Press Releases
+                      GALLERY
                     </a>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
                     <a
-                      href="#"
+                      href="/videomenu"
                       className="block px-4 py-2 text-sm hover:text-white hover:bg-black "
                     >
-                      Industry News
+                      VIDEO
                     </a>
                   )}
                 </MenuItem>
                 <MenuItem>
                   {({ active }: { active: boolean }) => (
                     <a
-                      href="#"
+                      href="agendamenu"
                       className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
                     >
-                      Events & Exhibitions
+                      ACTIVITY AGENDA
                     </a>
                   )}
                 </MenuItem>

@@ -80,6 +80,11 @@ const PressFittings = lazy(
 );
 const ReliefValve = lazy(() => import("./assets/Pages/AllProduct/ReliefValve"));
 const Accessories = lazy(() => import("./assets/Pages/AllProduct/Accessories"));
+const Gallery = lazy(() => import("./assets/Pages/MediaInformasi/Gallery"));
+const VideoMenu = lazy(() => import("./assets/Pages/MediaInformasi/VideoMenu"));
+const AgendaMenu = lazy(
+  () => import("./assets/Pages/MediaInformasi/AgendaMenu")
+);
 
 function App() {
   return (
@@ -139,6 +144,9 @@ function App() {
             <Route path="/pressfittings" element={<PressFittings />} />
             <Route path="/reliefvalve" element={<ReliefValve />} />
             <Route path="/accessories" element={<Accessories />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/videomenu" element={<VideoMenu />} />
+            <Route path="/agendamenu" element={<AgendaMenu />} />
           </Routes>
         </Suspense>
       </Router>
