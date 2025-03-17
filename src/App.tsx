@@ -31,6 +31,7 @@ import Fittings from "./assets/Pages/AllProduct/Fittings";
 import Pirul from "./assets/Pages/AllProduct/Pirul";
 import FireHose from "./assets/Pages/AllProduct/FireHose";
 import Manifold from "./assets/Pages/AllProduct/Manifold";
+import WaterServiceFittings from "./assets/Pages/AllProduct/WaterServiceFittings";
 
 function App() {
   return (
@@ -73,6 +74,10 @@ function App() {
             <Route path="/pirul" Component={Pirul} />
             <Route path="/firehose" Component={FireHose} />
             <Route path="/manifold" Component={Manifold} />
+            <Route
+              path="/waterservicefittings"
+              Component={WaterServiceFittings}
+            />
           </Route>
         </Routes>
       </Router>

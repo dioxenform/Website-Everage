@@ -5,6 +5,8 @@ import Typography from "@mui/material/Typography";
 import CardActionArea from "@mui/material/CardActionArea";
 import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
 
 type MainCardProps = {
   image: string;
@@ -18,12 +20,9 @@ const MainCard = (props: MainCardProps) => {
     <div>
       <Card sx={{ maxWidth: 500 }}>
         <CardActionArea>
-          <CardMedia
-            component="img"
-            height="140"
-            image={image}
-            alt="green iguana"
-          />
+          <Zoom zoomMargin={0}>
+            <CardMedia component="img" height="140" image={image} alt={title} />
+          </Zoom>
           <CardContent className="bg-gray-950 text-center tracking-wider min-h-[230px] ">
             <Typography
               gutterBottom
@@ -40,8 +39,9 @@ const MainCard = (props: MainCardProps) => {
               <p className="pt-4 text-base font-medium">
                 Slide to see other products. / Use the arrow button.{" "}
                 <ArrowBackIcon /> & <ArrowForwardIcon />
-                <br /> ------ <br /> Zoom in on the image to see the product
-                more clearly.
+                <br /> ------ <br /> Click on the image to Zoom in To see the
+                product more clearly. <br /> or Right Click Then Open Image in
+                New Tab.
               </p>
             </Typography>
           </CardContent>
