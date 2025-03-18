@@ -1,11 +1,9 @@
-import { Card, CardHeader, CardFooter, Image, Button } from "@heroui/react";
 import PabrikAnggotaOne from "../../Images/Pabrikanggota1.jpg";
 import PabrikAnggotaTwo from "../../Images/Pabrikanggota2.jpg";
 import PabrikAnggotaThree from "../../Images/Pabrikanggota3.jpg";
 import PabrikAnggotaFour from "../../Images/Pabrikanggota4.jpg";
 import PabrikAnggotaFive from "../../Images/Pabrikanggota5.jpg";
 import PabrikAnggotaSix from "../../Images/Pabrikanggota6.jpg";
-import PabrikAnggotaSeven from "../../Images/Pabrikanggota7.jpg";
 import Footer from "../../Components/Footer";
 import Header from "../../Components/Header";
 import React from "react";
@@ -21,37 +19,37 @@ const Pekerjas: Pekerja[] = [
     image: PabrikAnggotaOne,
     title: "Photos 1",
     description:
-      "Workers who are working diligently.Every worker is working very diligently and enthusiastically without complaining",
+      "All workers are diligently and enthusiastically performing their tasks without complaints",
   },
   {
     image: PabrikAnggotaTwo,
     title: "Photos 2",
     description:
-      "Workers who are working diligently.Every worker is working very diligently and enthusiastically without complaining",
+      "All workers are diligently and enthusiastically performing their tasks without complaints",
   },
   {
     image: PabrikAnggotaThree,
     title: "Photos 3",
     description:
-      "Workers who are working diligently.Every worker is working very diligently and enthusiastically without complaining",
+      "All workers are diligently and enthusiastically performing their tasks without complaints",
   },
   {
     image: PabrikAnggotaFour,
     title: "Photos 4",
     description:
-      "Workers who are working diligently.Every worker is working very diligently and enthusiastically without complaining",
+      "All workers are diligently and enthusiastically performing their tasks without complaints",
   },
   {
     image: PabrikAnggotaFive,
     title: "Photos 5",
     description:
-      "Workers who are working diligently.Every worker is working very diligently and enthusiastically without complaining",
+      "All workers are diligently and enthusiastically performing their tasks without complaints",
   },
   {
     image: PabrikAnggotaSix,
     title: "Photos 6",
     description:
-      "Workers who are working diligently.Every worker is working very diligently and enthusiastically without complaining",
+      "All workers are diligently and enthusiastically performing their tasks without complaints",
   },
 ];
 
