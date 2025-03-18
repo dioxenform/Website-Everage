@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from "react";
+import { Suspense, lazy } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoadingPage from "./assets/Components/LoadingPage";
 
@@ -85,6 +85,8 @@ const VideoMenu = lazy(() => import("./assets/Pages/MediaInformasi/VideoMenu"));
 const AgendaMenu = lazy(
   () => import("./assets/Pages/MediaInformasi/AgendaMenu")
 );
+const CobaFocusCard = lazy(() => import("./assets/Pages/CobaFocusCard"));
+const Contact = lazy(() => import("./assets/Pages/ContactUs/Contact"));
 
 function App() {
   return (
@@ -147,6 +149,8 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/videomenu" element={<VideoMenu />} />
             <Route path="/agendamenu" element={<AgendaMenu />} />
+            <Route path="/cobafocuscard" element={<CobaFocusCard />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Suspense>
       </Router>

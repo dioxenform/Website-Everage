@@ -2,7 +2,7 @@ import LogoEverage from "../Images/logo-perusahaan.png";
 import HomeIcon from "@mui/icons-material/Home";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { Fragment, FC } from "react";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 
 interface HeaderProps {}
@@ -42,7 +42,7 @@ const Header: FC<HeaderProps> = () => {
             <MenuItems className="absolute left-0 rounded-md w-48 origin-top-left ring-black bg-white text-black shadow-lg ring-1 ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <p className="block px-4 py-2 text-sm hover:bg-black -mt-2 hover:text-white ">
                       <Link to="/strukturorganisasi">
                         Organizational structure
@@ -51,14 +51,14 @@ const Header: FC<HeaderProps> = () => {
                   )}
                 </MenuItem>
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <p className="block px-4 py-2 text-sm hover:text-white hover:bg-black ">
                       <Link to="/sejarah">History</Link>
                     </p>
                   )}
                 </MenuItem>
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <p className="block px-4 py-2 text-sm hover:text-white hover:bg-black -mb-1 hover:rounded-md ">
                       <Link to="/visimisi"> Vission & Mission</Link>
                     </p>
@@ -80,7 +80,7 @@ const Header: FC<HeaderProps> = () => {
             <MenuItems className="absolute left-0 rounded-md mt-2 w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <p className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black -mb-1 ">
                       <Link to="/allproduct">All Product</Link>
                     </p>
@@ -92,7 +92,7 @@ const Header: FC<HeaderProps> = () => {
 
           {/* MEDIA & INFORMASI Dropdown */}
           <Menu as="div" className="relative inline-block text-left">
-            <MenuButton className="flex items-center rounded-md hover:text-black hover:bg-white p-1 rounded transition-colors duration-200">
+            <MenuButton className="flex items-center rounded-md hover:text-black hover:bg-white p-1  transition-colors duration-200">
               MEDIA & INFORMASI
               <ChevronDownIcon
                 aria-hidden="true"
@@ -102,7 +102,7 @@ const Header: FC<HeaderProps> = () => {
             <MenuItems className="absolute left-0 rounded-md mt-2 w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <a
                       href="/gallery"
                       className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black "
@@ -112,7 +112,7 @@ const Header: FC<HeaderProps> = () => {
                   )}
                 </MenuItem>
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <a
                       href="/videomenu"
                       className="block px-4 py-2 text-sm hover:text-white hover:bg-black "
@@ -122,7 +122,7 @@ const Header: FC<HeaderProps> = () => {
                   )}
                 </MenuItem>
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <a
                       href="agendamenu"
                       className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
@@ -147,32 +147,12 @@ const Header: FC<HeaderProps> = () => {
             <MenuItems className="absolute rounded-md left-0 mt-2 w-48 origin-top-left bg-white text-black shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none z-10">
               <div className="py-1">
                 <MenuItem>
-                  {({ active }: { active: boolean }) => (
+                  {() => (
                     <a
-                      href="#"
+                      href="/contact"
                       className="block px-4 py-2 text-sm hover:text-white -mt-2 hover:bg-black "
                     >
-                      Kontak Sales
-                    </a>
-                  )}
-                </MenuItem>
-                <MenuItem>
-                  {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white hover:bg-black "
-                    >
-                      Lokasi Kantor
-                    </a>
-                  )}
-                </MenuItem>
-                <MenuItem>
-                  {({ active }: { active: boolean }) => (
-                    <a
-                      href="#"
-                      className="block px-4 py-2 text-sm hover:text-white -mb-1 hover:rounded-md hover:bg-black "
-                    >
-                      Formulir Pertanyaan
+                      Our Contact
                     </a>
                   )}
                 </MenuItem>

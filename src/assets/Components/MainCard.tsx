@@ -23,7 +23,7 @@ const MainCard = (props: MainCardProps) => {
           <Zoom zoomMargin={0}>
             <CardMedia component="img" height="140" image={image} alt={title} />
           </Zoom>
-          <CardContent className="bg-gray-950 text-center tracking-wider min-h-[230px] ">
+          <CardContent className="bg-[#36393e] text-center tracking-wider min-h-[230px] ">
             <Typography
               gutterBottom
               variant="h5"
